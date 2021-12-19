@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/butterfly"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Hopeless  Diaries❤"
+        android:textColor="#5A455A"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <ImageView
+        android:id="@+id/pic0"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/hopless" />
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/neksha" />
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/v" />
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/rockstars" />
+
+    <ImageView
+        android:id="@+id/pic4"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/netra" />
+
+    <ImageView
+        android:id="@+id/pic5"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/z" />
+
+    <ImageView
+        android:id="@+id/pic6"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/anu" />
+
+    <ImageView
+        android:id="@+id/pic7"
+        android:layout_width="361dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/fab" />
+
+    <LinearLayout
+        android:layout_width="234dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic0"
+        app:layout_constraintVertical_bias="0.183">
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="previous"
+            app:srcCompat="@drawable/icon_prev" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="#F4F1F1"
+            android:onClick="next"
+            app:srcCompat="@drawable/icon_next" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
